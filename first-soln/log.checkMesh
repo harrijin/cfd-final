@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
-Date   : May 11 2022
-Time   : 00:04:35
-Host   : "c401-101.stampede2.tacc.utexas.edu"
-PID    : 19188
+Date   : May 12 2022
+Time   : 16:15:30
+Host   : "c410-034.stampede2.tacc.utexas.edu"
+PID    : 164462
 I/O    : uncollated
 Case   : /work2/07673/harrijin/stampede2/final-project/first-soln
 nProcs : 1
@@ -26,10 +26,10 @@ Create polyMesh for time = 0
 Time = 0
 
 Mesh stats
-    points:           7044
+    points:           6978
     internal points:  0
-    faces:            13504
-    internal faces:   6464
+    faces:            13472
+    internal faces:   6496
     cells:            3328
     faces per cell:   6
     boundary patches: 6
@@ -48,32 +48,27 @@ Overall number of cells of each type:
 
 Checking topology...
     Boundary definition OK.
- ***Total number of faces on empty patches is not divisible by the number of cells in the mesh. Hence this mesh is not 1D or 2D.
     Cell to face addressing OK.
     Point usage OK.
     Upper triangular ordering OK.
     Face vertices OK.
-   *Number of regions: 2
-    The mesh has multiple regions which are not connected by any face.
-  <<Writing region information to "0/cellToRegion"
-  <<Writing region 0 with 960 cells to cellSet region0
-  <<Writing region 1 with 2368 cells to cellSet region1
+    Number of regions: 1 (OK).
 
 Checking patch topology for multiply connected surfaces...
     Patch               Faces    Points   Surface topology                  
     inlet               40       82       ok (non-closed singly connected)  
     outlet              24       50       ok (non-closed singly connected)  
     bottom              24       50       ok (non-closed singly connected)  
-    top                 120      244      ok (non-closed singly connected)  
-    obstacle            112      228      ok (non-closed singly connected)  
-    defaultFaces        6720     7044     ok (non-closed singly connected)  
+    top                 120      242      ok (non-closed singly connected)  
+    obstacle            112      226      ok (non-closed singly connected)  
+    defaultFaces        6656     6978     ok (non-closed singly connected)  
 
 Checking geometry...
     Overall domain bounding box (0 0 -0.05) (3 1 0.05)
-    Mesh has 1 geometric (non-empty/wedge) directions (0 1 0)
-    Mesh has 1 solution (non-empty) directions (0 1 0)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (-2.03288e-18 5.74288e-17 -1.66484e-16) OK.
+    Boundary openness (2.79794e-18 5.92814e-17 -2.61389e-16) OK.
     Max cell openness = 1.73472e-16 OK.
     Max aspect ratio = 1 OK.
     Minimum face area = 0.000625. Maximum face area = 0.0025.  Face area magnitudes OK.

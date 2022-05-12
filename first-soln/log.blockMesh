@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-49b2b3b8b082
 Exec   : blockMesh
-Date   : May 11 2022
-Time   : 00:04:34
-Host   : "c401-101.stampede2.tacc.utexas.edu"
-PID    : 19181
+Date   : May 12 2022
+Time   : 16:15:29
+Host   : "c410-034.stampede2.tacc.utexas.edu"
+PID    : 164456
 I/O    : uncollated
 Case   : /work2/07673/harrijin/stampede2/final-project/first-soln
 nProcs : 1
@@ -32,12 +32,12 @@ Creating block mesh topology
 --> FOAM Warning : 
     From function Foam::polyMesh::polyMesh(const Foam::IOobject &, Foam::Field<Foam::Vector<double>> &&, const Foam::List<Foam::cellShape> &, const Foam::List<Foam::List<Foam::face>> &, const Foam::List<Foam::word> &, const Foam::PtrList<Foam::dictionary> &, const Foam::word &, const Foam::word &, bool)
     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 873
-    Found 13 undefined faces in mesh; adding to default patch.
+    Found 12 undefined faces in mesh; adding to default patch.
 
 Check topology
 
 	Basic statistics
-		Number of internal faces : 3
+		Number of internal faces : 6
 		Number of boundary faces : 24
 		Number of defined boundary faces : 24
 		Number of undefined boundary faces : 0
@@ -57,14 +57,18 @@ Creating points with scale 1
         j : 0.025 .. 0.025
         k : 0.1
     Block 2 cell size :
-        i : 0.025
-        j : 0.025 .. 0.025
+        i : 0.025 .. 0.025
+        j : 0.025
         k : 0.1
     Block 3 cell size :
         i : 0.025
-        j : 0.025
+        j : 0.025 .. 0.025
         k : 0.1
     Block 4 cell size :
+        i : 0.025
+        j : 0.025
+        k : 0.1
+    Block 5 cell size :
         i : 0.025 .. 0.025
         j : 0.025
         k : 0.1
@@ -76,19 +80,19 @@ Writing polyMesh
 Mesh Information
 ----------------
   boundingBox: (0 0 -0.05) (3 1 0.05)
-  nPoints: 7044
+  nPoints: 6978
   nCells: 3328
-  nFaces: 13504
-  nInternalFaces: 6464
+  nFaces: 13472
+  nInternalFaces: 6496
 ----------------
 Patches
 ----------------
-  patch 0 (start: 6464 size: 40) name: inlet
-  patch 1 (start: 6504 size: 24) name: outlet
-  patch 2 (start: 6528 size: 24) name: bottom
-  patch 3 (start: 6552 size: 120) name: top
-  patch 4 (start: 6672 size: 112) name: obstacle
-  patch 5 (start: 6784 size: 6720) name: defaultFaces
+  patch 0 (start: 6496 size: 40) name: inlet
+  patch 1 (start: 6536 size: 24) name: outlet
+  patch 2 (start: 6560 size: 24) name: bottom
+  patch 3 (start: 6584 size: 120) name: top
+  patch 4 (start: 6704 size: 112) name: obstacle
+  patch 5 (start: 6816 size: 6656) name: defaultFaces
 
 End
 

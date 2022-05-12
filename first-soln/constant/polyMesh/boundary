@@ -21,40 +21,39 @@ FoamFile
     {
         type            patch;
         nFaces          40;
-        startFace       6464;
+        startFace       6496;
     }
     outlet
     {
         type            patch;
         nFaces          24;
-        startFace       6504;
+        startFace       6536;
     }
     bottom
     {
-        type            symmetryPlane;
-        inGroups        List<word> 1(symmetryPlane);
+        type            patch;
         nFaces          24;
-        startFace       6528;
+        startFace       6560;
     }
     top
     {
-        type            symmetryPlane;
-        inGroups        List<word> 1(symmetryPlane);
+        type            patch;
         nFaces          120;
-        startFace       6552;
+        startFace       6584;
     }
     obstacle
     {
-        type            patch;
+        type            wall;
+        inGroups        List<word> 1(wall);
         nFaces          112;
-        startFace       6672;
+        startFace       6704;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          6720;
-        startFace       6784;
+        nFaces          6656;
+        startFace       6816;
     }
 )
 
