@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-49b2b3b8b082
 Exec   : blockMesh
-Date   : May 12 2022
-Time   : 16:15:29
-Host   : "c410-034.stampede2.tacc.utexas.edu"
-PID    : 164456
+Date   : May 14 2022
+Time   : 14:58:53
+Host   : "login4.stampede2.tacc.utexas.edu"
+PID    : 148345
 I/O    : uncollated
 Case   : /work2/07673/harrijin/stampede2/final-project/first-soln
 nProcs : 1
@@ -54,23 +54,23 @@ Creating points with scale 1
         k : 0.1
     Block 1 cell size :
         i : 0.025 .. 0.025
-        j : 0.025 .. 0.025
+        j : 0.025
         k : 0.1
     Block 2 cell size :
         i : 0.025 .. 0.025
-        j : 0.025
+        j : 0.025 .. 0.025
         k : 0.1
     Block 3 cell size :
         i : 0.025
-        j : 0.025 .. 0.025
+        j : 0.025
         k : 0.1
     Block 4 cell size :
         i : 0.025
-        j : 0.025
+        j : 0.025 .. 0.025
         k : 0.1
     Block 5 cell size :
         i : 0.025 .. 0.025
-        j : 0.025
+        j : 0.025 .. 0.025
         k : 0.1
 Creating cells
 Creating patches
@@ -80,19 +80,19 @@ Writing polyMesh
 Mesh Information
 ----------------
   boundingBox: (0 0 -0.05) (3 1 0.05)
-  nPoints: 6978
-  nCells: 3328
-  nFaces: 13472
-  nInternalFaces: 6496
+  nPoints: 8418
+  nCells: 4048
+  nFaces: 16352
+  nInternalFaces: 7936
 ----------------
 Patches
 ----------------
-  patch 0 (start: 6496 size: 40) name: inlet
-  patch 1 (start: 6536 size: 24) name: outlet
-  patch 2 (start: 6560 size: 24) name: bottom
-  patch 3 (start: 6584 size: 120) name: top
-  patch 4 (start: 6704 size: 112) name: obstacle
-  patch 5 (start: 6816 size: 6656) name: defaultFaces
+  patch 0 (start: 7936 size: 40) name: inlet
+  patch 1 (start: 7976 size: 32) name: outlet
+  patch 2 (start: 8008 size: 24) name: bottom
+  patch 3 (start: 8032 size: 120) name: top
+  patch 4 (start: 8152 size: 104) name: obstacle
+  patch 5 (start: 8256 size: 8096) name: defaultFaces
 
 End
 

@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
-Date   : May 12 2022
-Time   : 16:15:30
-Host   : "c410-034.stampede2.tacc.utexas.edu"
-PID    : 164462
+Date   : May 14 2022
+Time   : 14:58:54
+Host   : "login4.stampede2.tacc.utexas.edu"
+PID    : 148619
 I/O    : uncollated
 Case   : /work2/07673/harrijin/stampede2/final-project/first-soln
 nProcs : 1
@@ -26,11 +26,11 @@ Create polyMesh for time = 0
 Time = 0
 
 Mesh stats
-    points:           6978
+    points:           8418
     internal points:  0
-    faces:            13472
-    internal faces:   6496
-    cells:            3328
+    faces:            16352
+    internal faces:   7936
+    cells:            4048
     faces per cell:   6
     boundary patches: 6
     point zones:      0
@@ -38,7 +38,7 @@ Mesh stats
     cell zones:       0
 
 Overall number of cells of each type:
-    hexahedra:     3328
+    hexahedra:     4048
     prisms:        0
     wedges:        0
     pyramids:      0
@@ -57,22 +57,22 @@ Checking topology...
 Checking patch topology for multiply connected surfaces...
     Patch               Faces    Points   Surface topology                  
     inlet               40       82       ok (non-closed singly connected)  
-    outlet              24       50       ok (non-closed singly connected)  
+    outlet              32       66       ok (non-closed singly connected)  
     bottom              24       50       ok (non-closed singly connected)  
     top                 120      242      ok (non-closed singly connected)  
-    obstacle            112      226      ok (non-closed singly connected)  
-    defaultFaces        6656     6978     ok (non-closed singly connected)  
+    obstacle            104      210      ok (non-closed singly connected)  
+    defaultFaces        8096     8418     ok (non-closed singly connected)  
 
 Checking geometry...
     Overall domain bounding box (0 0 -0.05) (3 1 0.05)
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (2.79794e-18 5.92814e-17 -2.61389e-16) OK.
+    Boundary openness (4.88446e-18 5.01767e-17 -1.78616e-16) OK.
     Max cell openness = 1.73472e-16 OK.
     Max aspect ratio = 1 OK.
     Minimum face area = 0.000625. Maximum face area = 0.0025.  Face area magnitudes OK.
-    Min volume = 6.25e-05. Max volume = 6.25e-05.  Total volume = 0.208.  Cell volumes OK.
+    Min volume = 6.25e-05. Max volume = 6.25e-05.  Total volume = 0.253.  Cell volumes OK.
     Mesh non-orthogonality Max: 0 average: 0
     Non-orthogonality check OK.
     Face pyramids OK.

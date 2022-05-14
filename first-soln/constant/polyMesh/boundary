@@ -21,39 +21,39 @@ FoamFile
     {
         type            patch;
         nFaces          40;
-        startFace       6496;
+        startFace       7936;
     }
     outlet
     {
         type            patch;
-        nFaces          24;
-        startFace       6536;
+        nFaces          32;
+        startFace       7976;
     }
     bottom
     {
         type            patch;
         nFaces          24;
-        startFace       6560;
+        startFace       8008;
     }
     top
     {
         type            patch;
         nFaces          120;
-        startFace       6584;
+        startFace       8032;
     }
     obstacle
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          112;
-        startFace       6704;
+        nFaces          104;
+        startFace       8152;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          6656;
-        startFace       6816;
+        nFaces          8096;
+        startFace       8256;
     }
 )
 
