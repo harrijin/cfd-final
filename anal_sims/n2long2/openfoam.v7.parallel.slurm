@@ -12,7 +12,7 @@
 ### #SBATCH -p skx-normal          # Queue (partition) name
 
 #SBATCH -N 1               # Total # of nodes
-#SBATCH -n 16              # Total # of mpi tasks
+#SBATCH -n 4              # Total # of mpi tasks
 #SBATCH -t 01:00:00        # Run time (hh:mm:ss)
 
 ###  #SBATCH --mail-user=youremail@utexas.edu
